@@ -49,7 +49,7 @@ ul {
   padding-left: 15px;
   padding-right: 15px;
 
-  outline: 2px solid tomato;
+  /* outline: 2px solid tomato; */
 }
 
 /* Навигация и контакты */
@@ -410,7 +410,11 @@ ul {
 
 /* Постоянные клиенты */
 
-.customer{
+.clients {
+  padding-bottom: 94px;
+}
+.customer {
+  padding-top: 94px;
   padding-bottom: 94px;
 }
 
@@ -420,7 +424,6 @@ ul {
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
-  padding-top: 94px;
   margin-bottom: 50px;
 }
 
@@ -436,13 +439,24 @@ ul {
   height: 90px;
   justify-content: center;
   align-items: center;
-  outline: 1px solid #AFB1B8;
-  border-radius: 50%;
+  border: 1px solid #AFB1B8;
+  border-radius: 4%;
 }
 
 .clients-link-icon{
   fill: #AFB1B8;
 }
+
+.clients-link:hover,
+.clients-link:focus{
+  border: 1px solid var(--accent-text-color)
+}
+
+.clients-link:hover .clients-link-icon,
+.clients-link:focus .clients-link-icon{
+  fill: var(--accent-text-color);
+}
+
 .client1 {
   width: 44.27px;
   height: 49.23px;
