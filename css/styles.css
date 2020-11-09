@@ -176,6 +176,7 @@ ul {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  background-color: rgba(0, 0, 0, 0.8);
 }
 
 .m-section-title {
