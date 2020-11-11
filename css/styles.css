@@ -605,7 +605,8 @@ ul {
   margin: 0;
   padding-bottom: 20px;
   text-decoration: none;
-  outline: 1px solid red;
+  
+  /* outline: 1px solid red; */
 }
 
 .portfolio-filter {
